@@ -9,23 +9,23 @@ import {
   skillGroups,
 } from "./content";
 
-/** No trailing slash — used to build asset and fragment URLs. */
+/** No trailing slash, used to build asset and fragment URLs. */
 export const siteUrl = "https://anshumansinha.site";
 
 /** Canonical homepage URL, with the trailing slash the root path resolves to. */
 export const siteHome = `${siteUrl}/`;
 
-export const siteTitle = "Anshuman Sinha — SEO Specialist & Engineer";
+export const siteTitle = "Anshuman Sinha | SEO Specialist & Engineer";
 
-/** Bump when the page content meaningfully changes — feeds ProfilePage.dateModified. */
+/** Bump when the page content meaningfully changes; feeds ProfilePage.dateModified. */
 export const siteLastUpdated = "2026-09-01";
 
 export const siteDescription =
-  "Anshuman Sinha is an SEO Specialist and Computer Science Engineer in Bengaluru, India — technical SEO, programmatic SEO, SaaS SEO, AEO/GEO and AI automation that grows organic search.";
+  "Anshuman Sinha is an SEO Specialist and Computer Science Engineer in Bengaluru, India, working across technical SEO, programmatic SEO, SaaS SEO, AEO/GEO and AI automation that grows organic search.";
 
 const id = (fragment: string) => `${siteUrl}/#${fragment}`;
 
-/** Every skill, flattened — feeds Person.knowsAbout for entity understanding. */
+/** Every skill, flattened; feeds Person.knowsAbout for entity understanding. */
 const allSkills = skillGroups.flatMap((g) => g.items);
 
 const person = {
@@ -47,7 +47,6 @@ const person = {
     caption: `${profile.name}, SEO Specialist based in Bengaluru, India`,
   },
   email: `mailto:${profile.email}`,
-  telephone: profile.phone,
   address: {
     "@type": "PostalAddress",
     addressLocality: "Bengaluru",
@@ -137,7 +136,7 @@ const website = {
   "@type": "WebSite",
   "@id": id("website"),
   url: siteHome,
-  name: `${profile.name} — Portfolio`,
+  name: `${profile.name} Portfolio`,
   description: siteDescription,
   inLanguage: "en",
   publisher: { "@id": id("person") },
@@ -195,7 +194,7 @@ const faqPage = {
   "@type": "FAQPage",
   "@id": id("faq"),
   url: `${siteHome}#faq`,
-  name: `Working with ${profile.name} — frequently asked questions`,
+  name: `Working with ${profile.name}: frequently asked questions`,
   isPartOf: { "@id": id("website") },
   about: { "@id": id("person") },
   inLanguage: "en",
@@ -209,7 +208,7 @@ const faqPage = {
   })),
 };
 
-/** One linked graph — every node cross-references by @id instead of repeating itself. */
+/** One linked graph; every node cross-references by @id instead of repeating itself. */
 export const structuredData = {
   "@context": "https://schema.org",
   "@graph": [website, profilePage, person, projectList, faqPage],

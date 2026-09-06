@@ -5,8 +5,6 @@ export const profile = {
   role: "SEO Specialist & Engineer",
   location: "Bengaluru, India",
   email: "anshumansinha2001@gmail.com",
-  phone: "+91 70336 80524",
-  phoneHref: "+917033680524",
   whatsapp: "https://wa.me/917033680524",
   linkedin: "https://www.linkedin.com/in/theanshumansinha",
   disciplines: [
@@ -16,10 +14,10 @@ export const profile = {
     "AI Automation",
   ],
   tagline:
-    "I build search visibility that compounds — technical SEO, programmatic pages at scale, and AI agents that take over the repetitive work.",
+    "I build search visibility that compounds: technical SEO, programmatic pages at scale, and AI agents that take over the repetitive work.",
   summary: [
-    "I'm an SEO Specialist and Computer Science Engineer with 2+ years across technical SEO, programmatic SEO, SaaS SEO, content strategy and AEO/GEO. I own SEO for SaaS and client websites — from research and strategy through implementation, testing and reporting.",
-    "Because I come from a web development background, I ship the technical fixes myself instead of filing a ticket and waiting. And when a workflow starts repeating — content production, outreach, reporting — I build an AI agent to take it over.",
+    "I'm an SEO Specialist and Computer Science Engineer with 2+ years across technical SEO, programmatic SEO, SaaS SEO, content strategy and AEO/GEO. I own SEO for SaaS and client websites, from research and strategy through implementation, testing and reporting.",
+    "Because I come from a web development background, I ship the technical fixes myself instead of filing a ticket and waiting. And when a workflow starts repeating, whether that is content production, outreach or reporting, I build an AI agent to take it over.",
   ],
   availability: "Open to SEO & growth engineering work",
 };
@@ -41,13 +39,13 @@ export const services = [
   {
     n: "02",
     title: "Programmatic SEO",
-    body: "Template and data driven pages built to capture long-tail demand your main site never touches — designed to scale into thousands of URLs without turning into thin content.",
+    body: "Template and data driven pages built to capture long-tail demand your main site never touches, designed to scale into thousands of URLs without turning into thin content.",
     tags: ["Page templates", "Data models", "Scale", "Long-tail"],
   },
   {
     n: "03",
     title: "AEO / GEO",
-    body: "Answer Engine and Generative Engine Optimization — structuring content so ChatGPT, AI Overviews and Perplexity cite you instead of your competitor.",
+    body: "Answer Engine and Generative Engine Optimization: structuring content so ChatGPT, AI Overviews and Perplexity cite you instead of your competitor.",
     tags: ["AI Overviews", "Citations", "Entity SEO", "LLM visibility"],
   },
   {
@@ -59,7 +57,7 @@ export const services = [
   {
     n: "05",
     title: "Content Strategy",
-    body: "Keyword research, search intent mapping, content gap analysis and topical clusters — planned around what actually converts, then measured in Search Console.",
+    body: "Keyword research, search intent mapping, content gap analysis and topical clusters, planned around what actually converts, then measured in Search Console.",
     tags: ["Keyword research", "Intent", "Clusters", "Gap analysis"],
   },
   {
@@ -77,7 +75,7 @@ export const experience = [
     startDate: "2025-05",
     endDate: null,
     role: "SEO Specialist",
-    period: "May 2025 — Present",
+    period: "May 2025 - Present",
     location: "Bengaluru, India",
     current: true,
     blurb:
@@ -85,7 +83,7 @@ export const experience = [
     points: [
       "Helped grow monthly lead generation from single digits to double digits, contributing directly to revenue.",
       "Run SEO across technical, on-page, programmatic, off-page and content for the company website.",
-      "Built an AI-powered SEO content writing agent that automates several stages of content production — cutting manual effort and increasing output.",
+      "Built an AI-powered SEO content writing agent that automates several stages of content production, cutting manual effort and increasing output.",
       "Built an AI-powered email outreach agent for off-page SEO that handles repetitive link building and campaign follow-ups.",
       "Built programmatic SEO pages at scale to capture search demand the main site was not covering.",
       "Applied AEO and GEO tactics so content gets picked up by AI search tools and answer engines.",
@@ -100,14 +98,14 @@ export const experience = [
     startDate: "2024-11",
     endDate: "2025-05",
     role: "SEO Executive",
-    period: "Nov 2024 — May 2025",
+    period: "Nov 2024 - May 2025",
     location: "Bengaluru, India",
     blurb:
       "Agency-side SEO across multiple client accounts and industries, including YouTube channel growth.",
     points: [
       "Managed SEO for client websites including VisitHealth and UltraTech, working directly inside their CMS.",
       "Handled on-page SEO, keyword and metadata optimization, internal linking and content improvements.",
-      "Managed SEO for client YouTube channels — titles, descriptions, tags and channel structure — improving the organic reach of their videos.",
+      "Managed SEO for client YouTube channels, covering titles, descriptions, tags and channel structure, which improved the organic reach of their videos.",
       "Adapted SEO strategy across several client accounts in different industries and for different audiences.",
     ],
     stack: ["On-page SEO", "YouTube SEO", "CMS", "Client strategy"],
@@ -118,7 +116,7 @@ export const experience = [
     startDate: "2024-10",
     endDate: "2024-11",
     role: "SEO Intern",
-    period: "Oct 2024 — Nov 2024",
+    period: "Oct 2024 - Nov 2024",
     location: "Bengaluru, India",
     blurb: "First hands-on exposure to live client SEO work and audit workflows.",
     points: [
@@ -138,11 +136,11 @@ export const projects = [
     year: "2026",
     href: "https://app.growthhasten.com/",
     domain: "app.growthhasten.com",
-    body: "GrowthHasten's workspace of practical SEO, content and AI tools — a Website SEO Audit, an SEO Content Optimizer, Content Topic Research and an AI Humanizer, plus the Hasten LinkLens Chrome extension. Every tool runs in the browser with no account and no sign-up, and nothing is stored server-side.",
+    body: "GrowthHasten's workspace of practical SEO, content and AI tools: a Website SEO Audit, an SEO Content Optimizer, Content Topic Research and an AI Humanizer, plus the Hasten LinkLens Chrome extension. Every tool runs in the browser with no account and no sign-up, and nothing is stored server-side.",
     highlights: [
       "Four free browser-based tools, no login",
       "Hasten LinkLens on the Chrome Web Store",
-      "Stateless by design — no database, no accounts",
+      "Stateless by design, no database, no accounts",
     ],
     stack: ["Next.js", "LLM APIs", "Chrome Extension", "SEO Tooling"],
   },
@@ -186,7 +184,7 @@ export const projects = [
     year: "2026",
     href: null,
     domain: null,
-    body: "An AI content writing system and an AI email campaign system — language models, APIs and my own SEO process wired into working tools that replaced repetitive daily work and freed up time for strategy.",
+    body: "An AI content writing system and an AI email campaign system, built from language models, APIs and my own SEO process wired into working tools that replaced repetitive daily work and freed up time for strategy.",
     highlights: [
       "Content production pipeline",
       "Outreach campaign agent",
@@ -275,7 +273,7 @@ export const education = [
     schemaType: "CollegeOrUniversity",
     credential: "B.E. Computer Science",
     credentialCategory: "Bachelor of Engineering",
-    period: "Nov 2020 — May 2024",
+    period: "Nov 2020 - May 2024",
     startDate: "2020-11",
     endDate: "2024-05",
     detail: "CGPA 8.0 / 10",
@@ -286,7 +284,7 @@ export const education = [
     schemaType: "EducationalOrganization",
     credential: "Dynamic Digital Marketing Program",
     credentialCategory: "Professional Certificate",
-    period: "Sep 2024 — Dec 2024",
+    period: "Sep 2024 - Dec 2024",
     startDate: "2024-09",
     endDate: "2024-12",
     detail: "Bangalore, India",
@@ -347,7 +345,7 @@ export const navLinks = [
 export const faqs = [
   {
     q: "What kind of SEO work do you take on?",
-    a: "Technical SEO, programmatic SEO and SaaS/product SEO, plus the content strategy that sits on top of it — keyword research, search intent mapping, content gap analysis and internal linking. I work end to end: research and strategy through implementation, testing and reporting.",
+    a: "Technical SEO, programmatic SEO and SaaS/product SEO, plus the content strategy that sits on top of it: keyword research, search intent mapping, content gap analysis and internal linking. I work end to end: research and strategy through implementation, testing and reporting.",
   },
   {
     q: "Do you implement technical fixes yourself, or only recommend them?",
@@ -355,7 +353,7 @@ export const faqs = [
   },
   {
     q: "What are AEO and GEO, and do you actually do them?",
-    a: "Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) are about being the source that AI systems cite — ChatGPT, Google AI Overviews, Perplexity — rather than only ranking in classic blue links. I apply both in production: structuring content, entities and markup so answer engines can lift and attribute it.",
+    a: "Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) are about being the source that AI systems cite in ChatGPT, Google AI Overviews and Perplexity, rather than only ranking in classic blue links. I apply both in production: structuring content, entities and markup so answer engines can lift and attribute it.",
   },
   {
     q: "How do you use AI in SEO without producing low-quality content?",
@@ -367,6 +365,6 @@ export const faqs = [
   },
   {
     q: "Where are you based, and are you available for new work?",
-    a: "I'm based in Bengaluru, India, and I work with remote and distributed teams. I'm open to SEO and growth engineering work — the fastest way to reach me is WhatsApp or email.",
+    a: "I'm based in Bengaluru, India, and I work with remote and distributed teams. I'm open to SEO and growth engineering work, and the fastest way to reach me is WhatsApp or email.",
   },
 ];

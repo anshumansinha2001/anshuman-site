@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight, Mail, Phone } from "lucide-react";
+import { ArrowUpRight, Mail } from "lucide-react";
 import { LinkedInIcon, WhatsAppIcon } from "./icons";
 import { profile } from "@/lib/content";
 import { Reveal, SectionLabel } from "./ui";
@@ -15,14 +15,8 @@ const channels = [
   {
     icon: WhatsAppIcon,
     label: "WhatsApp",
-    value: profile.phone,
+    value: "Start a chat",
     href: profile.whatsapp,
-  },
-  {
-    icon: Phone,
-    label: "Phone",
-    value: profile.phone,
-    href: `tel:${profile.phoneHref}`,
   },
   {
     icon: LinkedInIcon,
@@ -80,7 +74,7 @@ export function Contact() {
             <Reveal delay={0.14}>
               <p className="mx-auto mt-6 max-w-xl text-[15px] leading-relaxed text-muted sm:text-base">
                 Whether you need a technical audit, programmatic pages that scale, or
-                AI tooling to take repetitive SEO work off your plate — tell me what
+                AI tooling to take repetitive SEO work off your plate, tell me what
                 you&apos;re trying to grow and I&apos;ll tell you exactly how I&apos;d
                 approach it.
               </p>
@@ -110,9 +104,17 @@ export function Contact() {
             </Reveal>
           </div>
 
-          <div className="relative mt-16 grid gap-px overflow-hidden rounded-2xl border border-line bg-line/70 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="relative mt-16 grid gap-px overflow-hidden rounded-2xl border border-line bg-line/70 sm:grid-cols-2 lg:grid-cols-3">
             {channels.map((c, i) => (
-              <Reveal key={c.label} delay={0.1 + i * 0.06} className="h-full">
+              <Reveal
+                key={c.label}
+                delay={0.1 + i * 0.06}
+                /* Three cards in a two-column grid would leave a gap; the last
+                   one spans the empty cell until the grid becomes three wide. */
+                className={`h-full${
+                  i === channels.length - 1 ? " sm:col-span-2 lg:col-span-1" : ""
+                }`}
+              >
                 <a
                   href={c.href}
                   target={c.href.startsWith("http") ? "_blank" : undefined}

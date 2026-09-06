@@ -20,7 +20,7 @@ export function Experience() {
           label="Experience"
           title="Where I've done"
           accent="the work"
-          intro="Two and a half years across SaaS in-house and agency-side client work — the kind of range that teaches you what actually moves rankings versus what only looks busy."
+          intro="Two and a half years across SaaS in-house and agency-side client work, the kind of range that teaches you what actually moves rankings versus what only looks busy."
         />
 
         <div className="mt-14">

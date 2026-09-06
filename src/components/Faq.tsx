@@ -20,7 +20,7 @@ export function Faq() {
           label="FAQ"
           title="Questions people"
           accent="actually ask"
-          intro="The things that come up in every first conversation — answered up front, so you can decide whether it's worth a call."
+          intro="The things that come up in every first conversation, answered up front, so you can decide whether it's worth a call."
         />
 
         <div className="mt-14 grid gap-px overflow-hidden rounded-3xl border border-line bg-line/70">

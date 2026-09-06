@@ -20,7 +20,7 @@ export default function NotFound() {
           <span className="serif-italic accent-gradient"> got indexed.</span>
         </h1>
         <p className="mt-6 max-w-md text-[15px] leading-relaxed text-muted">
-          The URL you followed does not exist on this site. Nothing here to crawl —
+          The URL you followed does not exist on this site. Nothing here to crawl, so
           try one of these instead.
         </p>
 

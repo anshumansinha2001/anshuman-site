@@ -45,14 +45,14 @@ export function Hero() {
               {...rise(0.14)}
               className="mt-7 text-[clamp(2.75rem,8vw,5.25rem)] leading-[0.94] font-medium"
             >
-              {/* Explicit spaces so the raw text reads "Anshuman Sinha — SEO that
+              {/* Explicit spaces so the raw text reads "Anshuman Sinha, SEO that
                   compounds." for crawlers and screen readers, not one run-on word.
                   Whitespace between block boxes collapses, so nothing shifts. */}
               <span className="block text-gradient">{profile.first}</span>{" "}
               <span className="block text-gradient">
-                {profile.last}{" "}
-                <span className="serif-italic ml-3 accent-gradient text-[0.86em]">
-                  — SEO
+                {profile.last},{" "}
+                <span className="serif-italic ml-2 accent-gradient text-[0.86em]">
+                  SEO
                 </span>
               </span>{" "}
               <span className="serif-italic block accent-gradient text-[0.86em]">
@@ -130,8 +130,9 @@ export function Hero() {
                 LinkedIn
               </a>
               <a
-                href="/Anshuman-Sinha-Resume.docx"
-                download
+                href="/resume"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 transition-colors hover:text-fg"
               >
                 <FileText className="size-3.5 text-accent/70" />

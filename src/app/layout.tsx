@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     template: "%s | Anshuman Sinha",
   },
   description: siteDescription,
-  applicationName: `${profile.name} — Portfolio`,
+  applicationName: `${profile.name} Portfolio`,
   keywords: [
     "Anshuman Sinha",
     "SEO Specialist",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     lastName: profile.last,
     username: "theanshumansinha",
     url: siteHome,
-    siteName: `${profile.name} — Portfolio`,
+    siteName: `${profile.name} Portfolio`,
     title: siteTitle,
     description: siteDescription,
     locale: "en_US",

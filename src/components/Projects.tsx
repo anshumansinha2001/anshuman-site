@@ -17,7 +17,7 @@ export function Projects() {
           label="Selected projects"
           title="Things I built and"
           accent="ranked"
-          intro="Products where I owned both sides — the build and the search strategy. Architecture, templates and metadata designed so organic growth compounds instead of being retrofitted later."
+          intro="Products where I owned both sides, the build and the search strategy. Architecture, templates and metadata designed so organic growth compounds instead of being retrofitted later."
         />
 
         <div className="mt-14 space-y-5">

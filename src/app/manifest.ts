@@ -4,7 +4,7 @@ import { siteDescription } from "@/lib/seo";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: `${profile.name} — SEO Specialist & Engineer`,
+    name: `${profile.name} | SEO Specialist & Engineer`,
     short_name: profile.name,
     description: siteDescription,
     start_url: "/",

@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteUrl } from "@/lib/seo";
 
 /**
- * Search crawlers and AI/answer-engine crawlers are both explicitly allowed —
+ * Search crawlers and AI/answer-engine crawlers are both explicitly allowed;
  * being cited by AI search is part of the point of this site (AEO/GEO).
  */
 const aiCrawlers = [

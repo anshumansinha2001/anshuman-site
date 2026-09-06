@@ -20,7 +20,7 @@ export function Skills() {
           label="Capabilities"
           title="The full"
           accent="toolkit"
-          intro="Where marketing instinct meets an engineering skill set — that overlap is where most SEO work stalls, and it's where I'm most useful."
+          intro="Where marketing instinct meets an engineering skill set. That overlap is where most SEO work stalls, and it's where I'm most useful."
         />
 
         <Reveal delay={0.1}>
@@ -68,7 +68,7 @@ export function Skills() {
         <Reveal delay={0.16}>
           <div className="mt-8 min-h-[13rem] rounded-3xl border border-line bg-ink-2/40 p-7 sm:p-9">
             {/*
-              Every panel stays in the DOM — inactive ones are hidden with CSS, so all
+              Every panel stays in the DOM; inactive ones are hidden with CSS, so all
               five skill groups are in the server-rendered HTML rather than only the
               active tab. The fade-up animation replays each time a panel is revealed.
             */}

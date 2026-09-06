@@ -16,7 +16,7 @@ export function Footer() {
               </span>
             </p>
             <p className="mt-3 text-[13.5px] leading-relaxed text-muted">
-              Technical SEO, programmatic SEO and AI automation — built by someone
+              Technical SEO, programmatic SEO and AI automation, built by someone
               who can also read the codebase.
             </p>
           </div>
@@ -32,8 +32,9 @@ export function Footer() {
               </a>
             ))}
             <a
-              href="/Anshuman-Sinha-Resume.docx"
-              download
+              href="/resume"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[13.5px] text-muted transition-colors duration-300 hover:text-fg"
             >
               Résumé

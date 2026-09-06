@@ -10,20 +10,20 @@ LinkedIn: https://www.linkedin.com/in/theanshumansinha
 
 ## Current role
 
-- SEO Specialist at Wisemonk, May 2025 – present.
+- SEO Specialist at Wisemonk, May 2025 - present.
   Owns technical, on-page, programmatic, off-page and content SEO. Helped grow
   monthly lead generation from single digits to double digits.
 
 ## Previous roles
 
-- SEO Executive at Punt Partners, Nov 2024 – May 2025. Client-side SEO including
+- SEO Executive at Punt Partners, Nov 2024 - May 2025. Client-side SEO including
   VisitHealth and UltraTech, plus YouTube channel SEO.
-- SEO Intern at Digital Corsel, Oct 2024 – Nov 2024.
+- SEO Intern at Digital Corsel, Oct 2024 - Nov 2024.
 
 ## What he does
 
 - Technical SEO: crawlability, indexation, site architecture, Core Web Vitals,
-  structured data, internal linking — implemented directly in the codebase.
+  structured data, internal linking, implemented directly in the codebase.
 - Programmatic SEO: template and data driven pages built to scale into thousands
   of URLs without becoming thin content.
 - AEO / GEO: structuring content and entities so answer engines and AI search
@@ -36,19 +36,19 @@ LinkedIn: https://www.linkedin.com/in/theanshumansinha
 
 ## Projects
 
-- HastenOS — https://app.growthhasten.com/ — SEO and AI tools workspace
+- HastenOS (https://app.growthhasten.com/): SEO and AI tools workspace
   (Website SEO Audit, SEO Content Optimizer, Content Topic Research, AI
   Humanizer) plus the Hasten LinkLens Chrome extension.
-- Influnca — https://www.influnca.com/ — influencer and brand platform, built
+- Influnca (https://www.influnca.com/): influencer and brand platform, built
   and shipped with SEO-first architecture.
-- PatnaitesMedia — https://patnaitesmedia.com/ — SEO-ready news and media site
+- PatnaitesMedia (https://patnaitesmedia.com/): SEO-ready news and media site
   engineered for high-volume publishing.
-- AI-Powered SEO Automation — AI content writing and email campaign systems
+- AI-Powered SEO Automation: AI content writing and email campaign systems
   built into a working SEO process.
 
 ## Education and certifications
 
-- B.E. Computer Science, Visvesvaraya Technological University (VTU), 2020–2024,
+- B.E. Computer Science, Visvesvaraya Technological University (VTU), 2020-2024,
   CGPA 8.0/10.
 - Dynamic Digital Marketing Program, National Institute of Digital Marketing,
   Bangalore, 2024.

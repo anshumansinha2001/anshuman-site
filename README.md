@@ -1,4 +1,4 @@
-# Anshuman Sinha — Portfolio
+# Anshuman Sinha Portfolio
 
 Premium personal portfolio for **Anshuman Sinha**, SEO Specialist & Computer Science Engineer (Bengaluru, India).
 
@@ -35,10 +35,10 @@ src/
     sitemap.ts robots.ts
   components/            Nav, Hero, Marquee, About, Services, Experience,
                          Projects, Skills, Credentials, Contact, Footer
-  lib/content.ts         All site copy and data — edit here
+  lib/content.ts         All site copy and data, edit here
 public/
   anshuman-sinha.jpg           Profile photo
-  Anshuman-Sinha-Resume.docx   Downloadable resume
+  Anshuman-Sinha-Resume.pdf    Resume, opens in a new tab
 ```
 
 ## Editing content
@@ -52,13 +52,13 @@ Change it there and every section updates.
 Colors, fonts and easing are defined in the `@theme` block of
 `src/app/globals.css`:
 
-- `--color-ink` — near-black background
-- `--color-accent` — acid lime `#c9f24d`
-- `--color-accent-2` — teal `#4de0c0`
+- `--color-ink`: near-black background
+- `--color-accent`: acid lime `#c9f24d`
+- `--color-accent-2`: teal `#4de0c0`
 - Display font pairing: Geist Sans / Geist Mono / Instrument Serif (italic accents)
 
 ## Before deploying
 
 - Update `siteUrl` in `src/app/layout.tsx`, `src/app/sitemap.ts` and
   `src/app/robots.ts` if the domain changes (currently `https://anshumansinha.site`).
-- Optionally export the resume as PDF and replace the `.docx` in `public/`.
+- Replace `public/Anshuman-Sinha-Resume.pdf` when the resume changes.

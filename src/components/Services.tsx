@@ -58,7 +58,7 @@ export function Services() {
           label="What I do"
           title="Six ways I move"
           accent="the needle"
-          intro="Search is a systems problem — architecture, content, authority and now AI answer engines. I work across all of it, and I write the code when the fix lives in the codebase."
+          intro="Search is a systems problem: architecture, content, authority and now AI answer engines. I work across all of it, and I write the code when the fix lives in the codebase."
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
