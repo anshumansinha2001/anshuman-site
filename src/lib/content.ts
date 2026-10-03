@@ -16,14 +16,14 @@ export const profile = {
   tagline:
     "I build search visibility that compounds: technical SEO, programmatic pages at scale, and AI agents that take over the repetitive work.",
   summary: [
-    "I'm an SEO Specialist and Computer Science Engineer with 2+ years across technical SEO, programmatic SEO, SaaS SEO, content strategy and AEO/GEO. I own SEO for SaaS and client websites, from research and strategy through implementation, testing and reporting.",
+    "I'm an SEO Specialist and Computer Science Engineer with 2.5+ years across technical SEO, programmatic SEO, SaaS SEO, content strategy and AEO/GEO. I own SEO for SaaS and client websites, from research and strategy through implementation, testing and reporting.",
     "Because I come from a web development background, I ship the technical fixes myself instead of filing a ticket and waiting. And when a workflow starts repeating, whether that is content production, outreach or reporting, I build an AI agent to take it over.",
   ],
   availability: "Open to SEO & growth engineering work",
 };
 
 export const stats = [
-  { value: "2+", label: "Years in SEO", sub: "SaaS + agency side" },
+  { value: "2.5+", label: "Years in SEO", sub: "SaaS + agency side" },
   { value: "10x", label: "Lead growth", sub: "single to double digits / mo" },
   { value: "2", label: "AI agents shipped", sub: "content + outreach" },
   { value: "3", label: "Products built", sub: "SEO-first from day one" },
@@ -91,6 +91,18 @@ export const experience = [
       "Plan search-focused content around user intent, then test and track results in Search Console and Analytics.",
     ],
     stack: ["Technical SEO", "Programmatic SEO", "AEO/GEO", "AI Agents"],
+    recognition: {
+      award: "Process Builder",
+      program: "Spot Recognition Program",
+      image: "/wisemonk-spot-recognition.webp",
+      width: 1054,
+      height: 1492,
+      citation:
+        "For building the AI-powered SEO agent, turning writing, audits and publishing into one workflow the whole team now runs on every day.",
+      quote:
+        "You built something the whole team now relies on, and changed how we work for the better.",
+      by: "Aditya Nagpal, CEO, Wisemonk",
+    },
   },
   {
     company: "Punt Partners",
@@ -129,20 +141,36 @@ export const experience = [
 
 export const projects = [
   {
-    title: "HastenOS",
+    title: "GrowthHasten",
     schemaType: "WebApplication",
-    kind: "SEO & AI Tools Workspace",
-    scope: "Product + Web Development",
+    kind: "SEO Intelligence Product",
+    scope: "Product + Engineering",
     year: "2026",
     href: "https://app.growthhasten.com/",
     domain: "app.growthhasten.com",
-    body: "GrowthHasten's workspace of practical SEO, content and AI tools: a Website SEO Audit, an SEO Content Optimizer, Content Topic Research and an AI Humanizer, plus the Hasten LinkLens Chrome extension. Every tool runs in the browser with no account and no sign-up, and nothing is stored server-side.",
+    body: "An SEO product that reads a website end to end, joins what it finds to the site's own Google Search Console and GA4 data, and answers one question: what should I fix first. One workspace per website, with a full site audit, search and content analysis, a prioritised action queue, shareable client reports, an MCP server for AI assistants and the Hasten LinkLens Chrome extension.",
     highlights: [
-      "Four free browser-based tools, no login",
-      "Hasten LinkLens on the Chrome Web Store",
-      "Stateless by design, no database, no accounts",
+      "141 deterministic audit checks across 12 categories",
+      "Search Console and GA4 joined to crawl data",
+      "Action Center that re-checks and verifies every fix",
     ],
-    stack: ["Next.js", "LLM APIs", "Chrome Extension", "SEO Tooling"],
+    stack: ["Next.js", "Postgres", "Google APIs", "LLM APIs", "MCP"],
+  },
+  {
+    title: "AI-Powered SEO Automation",
+    schemaType: "SoftwareApplication",
+    kind: "AI Agents & Workflow Automation",
+    scope: "AI Engineering",
+    year: "2026",
+    href: null,
+    domain: null,
+    body: "An AI content writing system and an AI email campaign system, built from language models, APIs and my own SEO process wired into working tools that replaced repetitive daily work and freed up time for strategy.",
+    highlights: [
+      "Content production pipeline",
+      "Outreach campaign agent",
+      "LLMs plus REST APIs plus SEO process",
+    ],
+    stack: ["AI Agents", "LLM APIs", "Node.js", "Automation"],
   },
   {
     title: "Influnca",
@@ -175,22 +203,6 @@ export const projects = [
       "Built for news-style indexation",
     ],
     stack: ["Next.js", "SSR", "Open Graph", "Content SEO"],
-  },
-  {
-    title: "AI-Powered SEO Automation",
-    schemaType: "SoftwareApplication",
-    kind: "AI Agents & Workflow Automation",
-    scope: "AI Engineering",
-    year: "2026",
-    href: null,
-    domain: null,
-    body: "An AI content writing system and an AI email campaign system, built from language models, APIs and my own SEO process wired into working tools that replaced repetitive daily work and freed up time for strategy.",
-    highlights: [
-      "Content production pipeline",
-      "Outreach campaign agent",
-      "LLMs plus REST APIs plus SEO process",
-    ],
-    stack: ["AI Agents", "LLM APIs", "Node.js", "Automation"],
   },
 ];
 

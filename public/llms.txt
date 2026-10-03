@@ -1,6 +1,6 @@
 # Anshuman Sinha
 
-> SEO Specialist and Computer Science Engineer based in Bengaluru, India. 2+ years
+> SEO Specialist and Computer Science Engineer based in Bengaluru, India. 2.5+ years
 > across technical SEO, programmatic SEO, SaaS SEO, content strategy, AEO/GEO and
 > SEO automation. Builds AI agents that take over repetitive SEO work.
 
@@ -13,6 +13,9 @@ LinkedIn: https://www.linkedin.com/in/theanshumansinha
 - SEO Specialist at Wisemonk, May 2025 - present.
   Owns technical, on-page, programmatic, off-page and content SEO. Helped grow
   monthly lead generation from single digits to double digits.
+  Received Wisemonk's Spot Recognition award ("Process Builder") for building
+  the AI-powered SEO agent the whole team now runs writing, audits and
+  publishing through every day.
 
 ## Previous roles
 
@@ -36,15 +39,17 @@ LinkedIn: https://www.linkedin.com/in/theanshumansinha
 
 ## Projects
 
-- HastenOS (https://app.growthhasten.com/): SEO and AI tools workspace
-  (Website SEO Audit, SEO Content Optimizer, Content Topic Research, AI
-  Humanizer) plus the Hasten LinkLens Chrome extension.
+- GrowthHasten (https://app.growthhasten.com/): SEO intelligence product. Crawls
+  a website, runs 141 deterministic audit checks, joins the findings to Google
+  Search Console and GA4 data, and ranks what to fix first in an Action Center
+  that verifies fixes. Also ships shareable reports, an MCP server for AI
+  assistants and the Hasten LinkLens Chrome extension.
+- AI-Powered SEO Automation: AI content writing and email campaign systems
+  built into a working SEO process.
 - Influnca (https://www.influnca.com/): influencer and brand platform, built
   and shipped with SEO-first architecture.
 - PatnaitesMedia (https://patnaitesmedia.com/): SEO-ready news and media site
   engineered for high-volume publishing.
-- AI-Powered SEO Automation: AI content writing and email campaign systems
-  built into a working SEO process.
 
 ## Education and certifications
 

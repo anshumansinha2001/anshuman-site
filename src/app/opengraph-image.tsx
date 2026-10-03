@@ -113,7 +113,7 @@ export default async function OpengraphImage() {
                 gap: 14,
               }}
             >
-              {["Bengaluru, India", "2+ years", "10x lead growth"].map((t) => (
+              {["Bengaluru, India", "2.5+ years", "10x lead growth"].map((t) => (
                 <div
                   key={t}
                   style={{

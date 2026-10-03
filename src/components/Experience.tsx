@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
-import { experience } from "@/lib/content";
+import Image from "next/image";
+import { ArrowUpRight, Award, ChevronDown } from "lucide-react";
+import { experience, profile } from "@/lib/content";
 import { Reveal, SectionHeading } from "./ui";
 
 export function Experience() {
@@ -115,17 +116,66 @@ export function Experience() {
                     }`}
                   >
                     <div className="overflow-hidden">
-                      <ul className="grid gap-3 pb-8 sm:grid-cols-2 sm:pl-[3.25rem]">
-                        {job.points.map((point) => (
-                          <li
-                            key={point}
-                            className="flex gap-3 rounded-xl border border-line/60 bg-ink-2/30 p-4 text-[13.5px] leading-relaxed text-muted"
-                          >
-                            <span className="mt-[0.45rem] size-1.5 shrink-0 rounded-full bg-accent/70" />
-                            {point}
-                          </li>
-                        ))}
-                      </ul>
+                      <div className="grid gap-3 pb-8 sm:pl-[3.25rem]">
+                        <ul className="grid gap-3 sm:grid-cols-2">
+                          {job.points.map((point) => (
+                            <li
+                              key={point}
+                              className="flex gap-3 rounded-xl border border-line/60 bg-ink-2/30 p-4 text-[13.5px] leading-relaxed text-muted"
+                            >
+                              <span className="mt-[0.45rem] size-1.5 shrink-0 rounded-full bg-accent/70" />
+                              {point}
+                            </li>
+                          ))}
+                        </ul>
+
+                        {job.recognition && (
+                          <figure className="relative grid items-center gap-6 overflow-hidden rounded-2xl border border-accent/20 bg-gradient-to-br from-accent/[0.06] via-ink-2/40 to-accent-2/[0.05] p-5 sm:grid-cols-[180px_1fr] sm:p-6 lg:grid-cols-[210px_1fr] lg:gap-8">
+                            <a
+                              href={job.recognition.image}
+                              target="_blank"
+                              rel="noopener"
+                              className="group/cert relative mx-auto block w-full max-w-[220px] overflow-hidden rounded-xl border border-line shadow-[0_20px_50px_-20px_rgba(0,0,0,0.7)] sm:max-w-none"
+                            >
+                              <Image
+                                src={job.recognition.image}
+                                alt={`${job.company} ${job.recognition.program} certificate presented to ${profile.first} for ${job.recognition.award}`}
+                                width={job.recognition.width}
+                                height={job.recognition.height}
+                                sizes="(max-width: 640px) 220px, 210px"
+                                className="h-auto w-full transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover/cert:scale-[1.03]"
+                              />
+                              <span className="absolute right-2 bottom-2 inline-flex items-center gap-1 rounded-full border border-line bg-ink/80 px-2 py-1 font-mono text-[10px] text-fg/90 opacity-0 backdrop-blur transition-opacity duration-300 group-hover/cert:opacity-100 group-focus-visible/cert:opacity-100">
+                                View
+                                <ArrowUpRight className="size-3" />
+                              </span>
+                            </a>
+
+                            <figcaption className="text-center sm:text-left">
+                              <span className="inline-flex items-center gap-2 font-mono text-[10.5px] uppercase tracking-[0.18em] text-accent">
+                                <Award className="size-3.5" />
+                                {job.recognition.program}
+                              </span>
+                              <p className="mt-3 text-2xl font-medium tracking-tight sm:text-[28px]">
+                                <span className="text-gradient">
+                                  {job.recognition.award}
+                                </span>
+                              </p>
+                              <p className="mt-3 text-[14px] leading-relaxed text-muted">
+                                {job.recognition.citation}
+                              </p>
+                              <blockquote className="mt-5 border-l-2 border-accent/50 pl-4 text-left">
+                                <p className="font-serif text-[17px] leading-snug text-fg/90 italic sm:text-lg">
+                                  &ldquo;{job.recognition.quote}&rdquo;
+                                </p>
+                                <footer className="mt-2 font-mono text-[11px] text-muted">
+                                  {job.recognition.by}
+                                </footer>
+                              </blockquote>
+                            </figcaption>
+                          </figure>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </article>
