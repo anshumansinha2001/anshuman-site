@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowUpRight, Mail } from "lucide-react";
-import { LinkedInIcon, WhatsAppIcon } from "./icons";
+import { LinkedInIcon } from "./icons";
 import { profile } from "@/lib/content";
 import { Reveal, SectionLabel } from "./ui";
 
@@ -11,12 +11,6 @@ const channels = [
     label: "Email",
     value: profile.email,
     href: `mailto:${profile.email}`,
-  },
-  {
-    icon: WhatsAppIcon,
-    label: "WhatsApp",
-    value: "Start a chat",
-    href: profile.whatsapp,
   },
   {
     icon: LinkedInIcon,
@@ -83,38 +77,30 @@ export function Contact() {
             <Reveal delay={0.22}>
               <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
                 <a
-                  href={profile.whatsapp}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`mailto:${profile.email}`}
                   className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-accent px-7 py-4 text-sm font-medium text-ink"
                 >
                   <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-accent-2 to-accent transition-transform duration-500 group-hover:translate-x-0" />
-                  <WhatsAppIcon className="relative size-4" />
-                  <span className="relative">Message me on WhatsApp</span>
+                  <Mail className="relative size-4" />
+                  <span className="relative">Email me</span>
                   <ArrowUpRight className="relative size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </a>
                 <a
-                  href={`mailto:${profile.email}`}
+                  href={profile.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-line bg-ink/50 px-7 py-4 text-sm text-fg backdrop-blur transition-colors duration-300 hover:border-accent/40"
                 >
-                  <Mail className="size-4 text-accent/80" />
-                  Email instead
+                  <LinkedInIcon className="size-3.5 text-accent/80" />
+                  Connect on LinkedIn
                 </a>
               </div>
             </Reveal>
           </div>
 
-          <div className="relative mt-16 grid gap-px overflow-hidden rounded-2xl border border-line bg-line/70 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="relative mt-16 grid gap-px overflow-hidden rounded-2xl border border-line bg-line/70 sm:grid-cols-2">
             {channels.map((c, i) => (
-              <Reveal
-                key={c.label}
-                delay={0.1 + i * 0.06}
-                /* Three cards in a two-column grid would leave a gap; the last
-                   one spans the empty cell until the grid becomes three wide. */
-                className={`h-full${
-                  i === channels.length - 1 ? " sm:col-span-2 lg:col-span-1" : ""
-                }`}
-              >
+              <Reveal key={c.label} delay={0.1 + i * 0.06} className="h-full">
                 <a
                   href={c.href}
                   target={c.href.startsWith("http") ? "_blank" : undefined}

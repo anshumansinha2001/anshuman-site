@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
-import { ArrowDownRight, ArrowUpRight, FileText, Mail, MapPin } from "lucide-react";
-import { LinkedInIcon, WhatsAppIcon } from "./icons";
+import { ArrowDownRight, ArrowUpRight, Mail, MapPin } from "lucide-react";
+import { LinkedInIcon } from "./icons";
 import { profile, stats } from "@/lib/content";
 
 const easeOutExpo = [0.16, 1, 0.3, 1] as const;
@@ -86,13 +86,11 @@ export function Hero() {
               className="mt-9 flex flex-wrap items-center gap-3"
             >
               <a
-                href={profile.whatsapp}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`mailto:${profile.email}`}
                 className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-accent px-6 py-3.5 text-sm font-medium text-ink"
               >
                 <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-accent-2 to-accent transition-transform duration-500 group-hover:translate-x-0" />
-                <WhatsAppIcon className="relative size-4" />
+                <Mail className="relative size-4" />
                 <span className="relative">Start a project</span>
                 <ArrowUpRight className="relative size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
@@ -128,15 +126,6 @@ export function Hero() {
               >
                 <LinkedInIcon className="size-3 text-accent/70" />
                 LinkedIn
-              </a>
-              <a
-                href="/resume"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 transition-colors hover:text-fg"
-              >
-                <FileText className="size-3.5 text-accent/70" />
-                Résumé
               </a>
             </motion.div>
           </div>

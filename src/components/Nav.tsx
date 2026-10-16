@@ -114,9 +114,7 @@ export function Nav() {
 
             <div className="flex items-center gap-2">
               <a
-                href={profile.whatsapp}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`mailto:${profile.email}`}
                 className="group hidden items-center gap-1.5 rounded-full bg-accent px-4 py-2 text-[13px] font-medium text-ink transition-all duration-300 hover:bg-accent/90 sm:inline-flex"
               >
                 Let&apos;s talk
@@ -164,9 +162,7 @@ export function Nav() {
                 </motion.a>
               ))}
               <motion.a
-                href={profile.whatsapp}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`mailto:${profile.email}`}
                 initial={{ opacity: 0, y: 18 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.5 }}

@@ -32,14 +32,6 @@ export function Footer() {
               </a>
             ))}
             <a
-              href="/resume"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[13.5px] text-muted transition-colors duration-300 hover:text-fg"
-            >
-              Résumé
-            </a>
-            <a
               href={profile.linkedin}
               target="_blank"
               rel="noopener noreferrer"

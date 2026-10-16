@@ -5,7 +5,6 @@ export const profile = {
   role: "SEO Specialist & Engineer",
   location: "Bengaluru, India",
   email: "anshumansinha2001@gmail.com",
-  whatsapp: "https://wa.me/917033680524",
   linkedin: "https://www.linkedin.com/in/theanshumansinha",
   disciplines: [
     "Technical SEO",
@@ -377,6 +376,6 @@ export const faqs = [
   },
   {
     q: "Where are you based, and are you available for new work?",
-    a: "I'm based in Bengaluru, India, and I work with remote and distributed teams. I'm open to SEO and growth engineering work, and the fastest way to reach me is WhatsApp or email.",
+    a: "I'm based in Bengaluru, India, and I work with remote and distributed teams. I'm open to SEO and growth engineering work, and the fastest way to reach me is email.",
   },
 ];
